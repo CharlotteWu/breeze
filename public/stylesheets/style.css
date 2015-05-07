@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* 使用重置样式表 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;    
+}
+body{
+    line-height:1;
+    font-family: '微软雅黑';
+}
+ol,ul{
+    list-style:none;
+}
+blockquote, q{
+    quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content:none;
+}
+/* remeber to define focus styles! */
+:focus{
+    outline:0;
+}
+/* remeber to highlight inserts somehow */
+ins,a{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+/* tables still need 'cellspacing="0" in the markup' */
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/*Formal css start!*/
+
+/*index*/
+.bg-roll{
+
+    position: absolute;
+    width: 100%;
+    height:100%;  
+}
+
+#bg1,#bg2,#bg3{ 
+    position: absolute;
+    width: 100%; 
+    height: 100%;  
+}
+
+ 
+#bg1{
+    background-image: url('../images/bg1.jpg'); 
+    background-size: cover; 
+}
+
+#bg2{
+    background-image: url('../images/bg2.jpg');
+    background-size: cover; 
+}
+
+#bg3{
+    background-image: url('../images/bg3.jpg');
+    background-size: cover; 
+}
+
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.loginframe{ 
+    position: absolute;
+    top: 15%;
+    left: 50%; 
+    width: 400px;
+    height: 500px;
+    background: rgba(0,0,0,.4); 
+    border-radius: 10px;
+    box-shadow: 3px 3px  5px 5px #000000 ; 
+    color: #ffffff; 
+}
+  
+.frame{  
+    width: 250px; 
+    height: 100%; 
+    margin: 0 auto; 
+}
+
+
+.login{  
+    position: absolute; 
+    top: 80px; 
+    width: 250px;
+    height: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.title{ 
+    width:125px;
+    font-size: 20px; 
+    float: left; 
+    text-align: center;
+}
+
+.title a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.log-form{
+    position: absolute;
+    top: 140px;  
+    width: 250px;  
+    overflow: hidden;
+}
+
+ 
+.sign-up form p,.sign-in form p{
+    line-height: 55px;
+}
+  
+.sign-up form p span,.sign-in form p span{
+    border: 1px solid #ffffff;  
+    padding: 10px; 
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.sign-up form input,.sign-in form input{ 
+    width: 200px;
+    height: 35px;
+    background: rgba(255,255,255,0);
+    border:1px solid #ffffff; 
+    padding-top: 5px;
+    color: #ffffff; 
+    border-radius: 0 5px 5px 0;
+}
+ 
+.sign-up form input:first-child,.sign-in form input:first{  
+    height: 35px; 
+    padding-top: 5px;
+}
+
+#remember{
+    width: 20px;
+    height: 20px;
+}
+
+.sign-up form .submit,.sign-in form .submit{
+    display: block; 
+    width: 200px;
+    height: 50px;
+    background: #049CDB;
+    border: 0;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.sign-up .submit:hover,.sign-in .submit:hover{
+    
+    background: #08B7FF; 
+}
+
+/*index style*/
+/*header*/
+header{
+    position: fixed;
+    top: 0px;  
+    width: 100%; 
+    background: rgba(255,255,255,.6);
+    box-shadow: 2px 2px 5px  #aaaaaa;
+
+
+}
+
+.logo-min{
+     padding: 2px 0px 2px 50px ;
+}
+
+.basic-login{
+    float: right; 
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.basic-login a:link,.basic-login a:visited{
+    color: #2A2A2A;
+    font-size: 15px;
+ }
+
+.basic-login span{
+    padding-left: 5px;
+}
+
+.container{ 
+    position: relative;
+}
+
+article{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 46px;
+
+}
+
+article .article{
+    padding: 20px;
+    border-bottom: 1px dashed #aaaaaa;
+}
+
+.article h2 a:link,.article h2 a:visited{
+    font-size: 28px; 
+    color: #332828;
+}
+
+.article p{
+    line-height: 20px; 
+}
+
+aside{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background: #2A2A2A;
+    width: 40px; 
+ 
+}

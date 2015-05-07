@@ -1,0 +1,102 @@
+[Wed May 06 2015 23:13:35 GMT+0800 (中国标准时间)] /u/asd
+Error: Failed to lookup view "user" in views directory "G:\nodejs\breeze/views"
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:166:22
+    at G:\nodejs\breeze\models\post.js:80:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\cursor.js:590:16
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:234:5)
+    at setCursorDeadAndNotified (G:\nodejs\breeze\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:424:3)
+    at nextFunction (G:\nodejs\breeze\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:586:7)
+    at Cursor.next (G:\nodejs\breeze\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:614:3)
+[Thu May 07 2015 11:06:27 GMT+0800 (中国标准时间)] /post
+ReferenceError: G:\nodejs\breeze\views\post.ejs:15
+
+
+user is not defined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:14:12)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:23:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:120:11
+    at callbacks (G:\nodejs\breeze\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\nodejs\breeze\node_modules\express\lib\router\index.js:138:11)
+[Thu May 07 2015 11:06:39 GMT+0800 (中国标准时间)] /post
+ReferenceError: G:\nodejs\breeze\views\post.ejs:15
+
+
+user is not defined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:14:12)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:23:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:120:11
+    at callbacks (G:\nodejs\breeze\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\nodejs\breeze\node_modules\express\lib\router\index.js:138:11)
+[Thu May 07 2015 11:08:13 GMT+0800 (中国标准时间)] /post
+ReferenceError: G:\nodejs\breeze\views\post.ejs:15
+    13| 
+
+user is not defined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:14:12)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:23:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:120:11
+    at callbacks (G:\nodejs\breeze\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\nodejs\breeze\node_modules\express\lib\router\index.js:138:11)
+[Thu May 07 2015 11:08:53 GMT+0800 (中国标准时间)] /post
+ReferenceError: G:\nodejs\breeze\views\post.ejs:15
+    13| 
+
+user is not defined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:14:12)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:23:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:120:11
+    at callbacks (G:\nodejs\breeze\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\nodejs\breeze\node_modules\express\lib\router\index.js:138:11)
+[Thu May 07 2015 11:08:55 GMT+0800 (中国标准时间)] /post
+ReferenceError: G:\nodejs\breeze\views\post.ejs:15
+    13| 
+
+user is not defined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:14:12)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:23:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:120:11
+    at callbacks (G:\nodejs\breeze\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\nodejs\breeze\node_modules\express\lib\router\index.js:138:11)
+[Thu May 07 2015 11:09:05 GMT+0800 (中国标准时间)] /post
+ReferenceError: G:\nodejs\breeze\views\post.ejs:15
+    13| 
+
+user is not defined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:14:12)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:23:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:120:11
+    at callbacks (G:\nodejs\breeze\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\nodejs\breeze\node_modules\express\lib\router\index.js:138:11)
