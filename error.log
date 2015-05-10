@@ -100,3 +100,831 @@ user is not defined
     at G:\nodejs\breeze\routes\index.js:120:11
     at callbacks (G:\nodejs\breeze\node_modules\express\lib\router\index.js:164:37)
     at param (G:\nodejs\breeze\node_modules\express\lib\router\index.js:138:11)
+[Thu May 07 2015 23:52:55 GMT+0800 (中国标准时间)] /u/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:138:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Thu May 07 2015 23:53:02 GMT+0800 (中国标准时间)] /u/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:138:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Thu May 07 2015 23:56:21 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Thu May 07 2015 23:56:50 GMT+0800 (中国标准时间)] /edit/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:208:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Thu May 07 2015 23:57:19 GMT+0800 (中国标准时间)] /edit/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:209:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Thu May 07 2015 23:58:28 GMT+0800 (中国标准时间)] /edit/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:209:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 00:00:36 GMT+0800 (中国标准时间)] /edit/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:209:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 00:00:54 GMT+0800 (中国标准时间)] /edit/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:209:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 00:01:14 GMT+0800 (中国标准时间)] /edit/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:209:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 00:03:05 GMT+0800 (中国标准时间)] /edit/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:209:9
+    at G:\nodejs\breeze\models\post.js:137:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:28:25 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:34:16 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:37:07 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:39:01 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:39:54 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:40:12 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:41:38 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:42:07 GMT+0800 (中国标准时间)] /u/d/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:4
+    2| 
+    3| <p>
+ >> 4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    6|   <span><a class="edit" href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></span>
+    7| <% } %>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:38)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:116:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:43:41 GMT+0800 (中国标准时间)] /u/asd/2015-4-30/asd
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:111:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 16:43:43 GMT+0800 (中国标准时间)] /u/asd/2015-4-30/asd
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:111:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 16:43:48 GMT+0800 (中国标准时间)] /u/asd/2015-4-30/asd
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:111:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 16:43:58 GMT+0800 (中国标准时间)] /edit/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:210:9
+    at G:\nodejs\breeze\models\post.js:140:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:44:58 GMT+0800 (中国标准时间)] /edit/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:210:9
+    at G:\nodejs\breeze\models\post.js:140:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 16:47:33 GMT+0800 (中国标准时间)] /u/asd/2015-5-8/%E5%A4%A7%E8%8B%8F%E6%89%93
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:21)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:111:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 16:47:38 GMT+0800 (中国标准时间)] /u/asd/2015-5-8/%E5%A4%A7%E8%8B%8F%E6%89%93
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:21)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:191:9
+    at G:\nodejs\breeze\models\post.js:111:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 19:59:58 GMT+0800 (中国标准时间)] /edit/asd/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:233:9
+    at G:\nodejs\breeze\models\post.js:140:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 22:30:56 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:217:9
+    at G:\nodejs\breeze\models\post.js:123:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 22:31:05 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:217:9
+    at G:\nodejs\breeze\models\post.js:123:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 22:31:10 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:217:9
+    at G:\nodejs\breeze\models\post.js:123:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 22:31:37 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:217:9
+    at G:\nodejs\breeze\models\post.js:123:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 22:44:27 GMT+0800 (中国标准时间)] /u/bn
+TypeError: G:\nodejs\breeze\views\user.ejs:10
+    8|              日期：<%= post.time.minute %> | 
+    9|              标签：
+ >> 10|               <% post.tags.forEach(function (tag, index) { %>
+    11|                      <% if (tag) { %>
+    12|                       <a class="tag" href="/tags/<%= tag %>"><%= tag %></a>
+    13|                      <% } %>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:63:18)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:43:14)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:198:22
+    at G:\nodejs\breeze\models\post.js:92:19
+[Fri May 08 2015 22:44:28 GMT+0800 (中国标准时间)] /u/bn
+TypeError: G:\nodejs\breeze\views\user.ejs:10
+    8|              日期：<%= post.time.minute %> | 
+    9|              标签：
+ >> 10|               <% post.tags.forEach(function (tag, index) { %>
+    11|                      <% if (tag) { %>
+    12|                       <a class="tag" href="/tags/<%= tag %>"><%= tag %></a>
+    13|                      <% } %>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:63:18)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:43:14)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:198:22
+    at G:\nodejs\breeze\models\post.js:92:19
+[Fri May 08 2015 22:44:30 GMT+0800 (中国标准时间)] /u/bn
+TypeError: G:\nodejs\breeze\views\user.ejs:10
+    8|              日期：<%= post.time.minute %> | 
+    9|              标签：
+ >> 10|               <% post.tags.forEach(function (tag, index) { %>
+    11|                      <% if (tag) { %>
+    12|                       <a class="tag" href="/tags/<%= tag %>"><%= tag %></a>
+    13|                      <% } %>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:63:18)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:43:14)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:198:22
+    at G:\nodejs\breeze\models\post.js:92:19
+[Fri May 08 2015 22:44:32 GMT+0800 (中国标准时间)] /u/asd
+TypeError: G:\nodejs\breeze\views\user.ejs:10
+    8|              日期：<%= post.time.minute %> | 
+    9|              标签：
+ >> 10|               <% post.tags.forEach(function (tag, index) { %>
+    11|                      <% if (tag) { %>
+    12|                       <a class="tag" href="/tags/<%= tag %>"><%= tag %></a>
+    13|                      <% } %>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:63:18)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:43:14)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:198:22
+    at G:\nodejs\breeze\models\post.js:92:19
+[Fri May 08 2015 22:44:48 GMT+0800 (中国标准时间)] /
+TypeError: G:\nodejs\breeze\views\index.ejs:12
+    10|              日期：<%= post.time.minute %> | 
+    11|              标签：
+ >> 12|               <% post.tags.forEach(function (tag, index) { %>
+    13|                      <% if (tag) { %>
+    14|                       <a class="tag" href="/tags/<%= tag %>"><%= tag %></a>
+    15|                      <% } %>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:63:18)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:43:14)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:19:9
+    at G:\nodejs\breeze\models\post.js:92:19
+[Fri May 08 2015 22:45:35 GMT+0800 (中国标准时间)] /
+TypeError: G:\nodejs\breeze\views\index.ejs:11
+    9|   日期：<%= post.time.minute %> | 
+    10|   标签：
+ >> 11|   <% post.tags.forEach(function (tag, index) { %>
+    12|     <% if (tag) { %>
+    13|       <a class="tag" href="/tags/<%= tag %>"><%= tag %></a>
+    14|     <% } %>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:54:18)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:43:14)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:19:9
+    at G:\nodejs\breeze\models\post.js:92:19
+[Fri May 08 2015 22:46:04 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:220:9
+    at G:\nodejs\breeze\models\post.js:125:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 22:46:40 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:220:9
+    at G:\nodejs\breeze\models\post.js:125:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 22:50:56 GMT+0800 (中国标准时间)] /u/bn/2015-4-30/hello
+TypeError: G:\nodejs\breeze\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| 
+    3| <p>
+    4|  <% if (user && (user.name == post.name)) { %>
+    5|   <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+
+Cannot call method 'forEach' of undefined
+    at __line (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:76:22)
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:111:9)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:203:9
+    at G:\nodejs\breeze\models\post.js:123:9
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+[Fri May 08 2015 22:52:16 GMT+0800 (中国标准时间)] /edit/123/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:245:9
+    at G:\nodejs\breeze\models\post.js:152:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 22:52:24 GMT+0800 (中国标准时间)] /edit/123/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:245:9
+    at G:\nodejs\breeze\models\post.js:152:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
+[Fri May 08 2015 22:52:24 GMT+0800 (中国标准时间)] /edit/123/images/breeze-min.png
+TypeError: G:\nodejs\breeze\views\edit.ejs:4
+    2|  <form method="post">
+    3|   标题：<br />
+ >> 4|   <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|   正文：<br />
+    6|   <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|   <input type="submit" value="保存修改" />
+
+Cannot read property 'title' of null
+    at eval (eval at <anonymous> (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:42:32)
+    at G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (G:\nodejs\breeze\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (G:\nodejs\breeze\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (G:\nodejs\breeze\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (G:\nodejs\breeze\node_modules\express\lib\response.js:798:7)
+    at G:\nodejs\breeze\routes\index.js:245:9
+    at G:\nodejs\breeze\models\post.js:152:17
+    at handleCallback (G:\nodejs\breeze\node_modules\mongodb\lib\utils.js:95:12)
+    at G:\nodejs\breeze\node_modules\mongodb\lib\collection.js:861:5
