@@ -114,8 +114,7 @@ module.exports = function(app){
       return res.redirect('/login'); 
     }
    
-    req.session.user = user;
-    req.flash('success', '登陆成功!');
+    req.session.user = user; 
     res.redirect('/'); 
      });
 

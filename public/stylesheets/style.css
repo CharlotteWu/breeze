@@ -181,23 +181,18 @@ table{
 /*header*/
 header{
     position: fixed;
-    top: 0px;  
+    top: 0px;   
     width: 100%; 
-    background: rgba(255,255,255,.6);
-    box-shadow: 2px 2px 5px  #aaaaaa;
-
-
+    background: rgb(255,255,255);
+    box-shadow: 2px 2px 5px  #aaaaaa; 
+    z-index: 999;
 }
-
-.logo-min{
-     padding: 2px 0px 2px 50px ;
-}
-
-.basic-login{
-    float: right; 
-    text-decoration: none;
-    margin-top: 15px;
-    margin-right: 10px;
+ 
+.basic-login{ 
+    text-decoration: none;  
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
 }
 
 .basic-login a:link,.basic-login a:visited{
@@ -206,17 +201,21 @@ header{
  }
 
 .basic-login span{
+    float: right; 
     padding-left: 5px;
+    display: inline;
 }
 
-.container{ 
+.content{ 
     position: relative;
 }
 
 article{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 46px;
+    position:relative;
+    width: 60%;  
+    top: 50px;
+    left: 27.5%; 
+    overflow: hidden;
 
 }
 
@@ -225,8 +224,7 @@ article .article{
     border-bottom: 1px dashed #aaaaaa;
 }
 
-.article h2 a:link,.article h2 a:visited{
-    font-size: 28px; 
+.article h6 a:link,.article h6 a:visited{ 
     color: #332828;
 }
 
@@ -239,7 +237,195 @@ aside{
     left: 0px;
     top: 0px;
     height: 100%;
-    background: #2A2A2A;
-    width: 40px; 
+    background: url('../images/aside.png') center no-repeat ;
+    background-size: cover;
+    width: 25%;  
+}
+
+.ap{
+    z-index: 999;
+    color: #fff;
+    font-size: 40px;  
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.ap p{
+    line-height: 50px;
+}
+
+.ap button{
+    background: #49BE38;
+    border-radius: 5px;
+    color: #fff;
+    border:0;
+    width: 160px;
+    height: 45px;
+    font-size: 15px; 
+}
+
+.ap button:hover{
+    background: #5CC34E; 
+}
+
+/*page number*/
+
+.page{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prepage a,.nextpage a { 
+    padding: 10px 30px 10px 30px;
+    text-align: center; 
+    background: #FF6868;
+    border-radius: 5px;
+    color: #fff;
+    display: inline;
+}
+
+.prepage{
+
+    margin-left: 38%;
+}
+
+.nextpage{
+    margin-left: 2%;
+}
+
+/*article*/
+
+/*button's same style*/
+.edit,.delete,.coms,.publish{
+    padding: 10px 30px 10px 30px;
+    background: #FF6868;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.edit:hover,.delete:hover,.coms:hover,.publish:hover{
+    background: #FC9696;
+}
+
+.edit a:link,.delete a:link,.edit a:visited,.delete a:visited{
+   color: #fff;
+}
+
+/*button style ends*/
+
+.change{
+    margin-top: 50px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.info p {
+    line-height: 
+}
+
+.article-detail{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.a-detail{
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+/*comment*/
+
+.comment{
+    margin-top: 130px;
+    border-top: 1px dashed #aaa;
+    
+}
+
+.comment p{
+    line-height: 25px; 
+    border-collapse: collapse;
+}
+
+.comment p:nth-child(even){
+border-collapse: collapse;
+   border-bottom: 1px dashed #aaa; 
+}
+
+.comment-area{
+    margin-top: 30px;
+}
+
+.name,.email,.website,.p-title{
+   margin-bottom: 10px;
+   width: 200px;
+   height: 30px;
+   border-radius: 5px; 
+}
+
  
+/*footer*/
+footer{
+    position: relative;
+    left: 27.5%;
+    width: 60%; 
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 1px solid #524D4D;
+}
+
+
+.declare li{
+    float: left;
+    width: 10%;
+    font-size: 14px;
+    color: #524D4D;
+}
+
+.link{
+    float: right;
+}
+
+.link li{
+  float:left; 
+}
+
+.twitter,.qzone,.wechat,.linkedin{
+    width: 60px;
+    height: 28px;
+}
+
+.twitter{ 
+    background: url('../images/twitter-b.png') center no-repeat;
+}
+
+.qzone{ 
+    background: url('../images/qzone-b.png') center no-repeat;
+}
+
+.wechat{ 
+    background: url('../images/wechat-b.png') center no-repeat;
+}
+
+.linkedin{ 
+    background: url('../images/linkedin-b.png') center no-repeat;
+}
+
+.twitter:hover{ 
+    background: url('../images/twitter.png') center no-repeat;
+}
+
+.qzone:hover{ 
+    background: url('../images/qzone.png') center no-repeat;
+}
+
+.wechat:hover{ 
+    background: url('../images/wechat.png') center no-repeat;
+}
+
+.linkedin:hover{ 
+    background: url('../images/linkedin.png') center no-repeat;
 }
