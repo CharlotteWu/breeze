@@ -3,20 +3,25 @@
 <div class="article-detail">
  
  <p class="info">
-  <h1><%= post.title %></h1></br>
+  <span class="article-title"><%= post.title %></span></br>
   作者：<a href="/u/<%= post.name %>"><%= post.name %></a> | 
-  日期：<%= post.time.minute %>
+  日期：<%= post.time.minute %> 
+   
 </p>
 <p class="a-detail"><%- post.post %></p>
+<p class="info">阅读：<%= post.pv %> | 评论：<%= post.comments.length %></p>
  
 <p class="change">
  <% if (user && (user.name == post.name)) { %>
   <button class="edit" ><a href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></button>
-  <button class="delete"><a href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></button>
+  <button class="delete"><a href="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">删除</a></button>  
 <% } %>
 </p>
+
+<div class="donate">
+  <i class="iconfont">&#xe602;</i>Like It
+</div>
  
 <%- include comment %>
 
- </div>
-<%- include footer %>
+ </div> 

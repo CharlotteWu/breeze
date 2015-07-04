@@ -1,7 +1,8 @@
 var mongodb = require('./db'); 
 
-function Post(name, title, post) {
+function Post(name,head, title, post) {
   this.name = name;
+  this.head = head;
   this.title = title;
   this.post = post;
 }
@@ -22,6 +23,7 @@ Post.prototype.save = function(callback) {
   
   var post = {
       name: this.name,
+      head: this.head,
       time: time,
       title: this.title,
       post: this.post,

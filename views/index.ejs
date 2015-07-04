@@ -1,11 +1,36 @@
- <%- include header %>
+ <%- include header %> 
+       
+     <aside>  
+        <div class="ap">
+          <p>Breeze</p>
+         <p>轻悦如风</p>
+         <% if(user) { %>
+        <a href="/post"><button><i class="iconfont">&#xe601;</i>写文章 </button></a>
+         <% } else { %>
+         <a href="/login"><button><i class="iconfont">&#xe619;</i>登陆</button></a>
+         <% } %>
+        </div>  
+     </aside>
+    
+        <article>
+
+         <% if (success) {%>
+       <div><%= success %></div>
+       <% } %>
+       <% if (error) { %>
+       <div><%= error %></div>
+       <% } %>
+
         <% posts.forEach(function (post, index) { %>
         <div class="article">
          <h6><a href="u/<%= post.name %>/<%= post.time.day %>/<%= post.title %>"><%= post.title %></a></h6> 
-            <p class="info">
+          
+            <p class="information">
              作者：<a href="u/<%= post.name %>"><%= post.name %></a> | 
-             日期：<%= post.time.minute %>
+             日期：<%= post.time.minute %>   
+             <a class="avatar" href="/u/<%= post.name %>"><img src="/images/touxiang.jpg"/></a>
             </p> 
+            <p class="information">阅读：<%= post.pv %> | 评论：<%= post.comments.length %></p>
            </div>
         <% }) %> 
   <%- include paging %>

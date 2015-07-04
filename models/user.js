@@ -1,19 +1,28 @@
-var mongodb = require('./db');
-
+var mongodb = require('./db'); 
+ 
+ 
+ 
  function User(user){
 
 	this.name = user.name;
 	this.password = user.password;
-	this.email = user.email;
+	this.email = user.email; 
 };
 
 module.exports = User;
 
 User.prototype.save = function(callback){
+  
+    var image_server = require('node-avatar-generator').server;
+
+     
+    var head = image_server();
+
     var user = {
     	name:this.name,
     	password:this.password,
-    	email :this.email
+    	email :this.email,
+        head:head
     };
 
     mongodb.open(function(err,db){

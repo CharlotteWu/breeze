@@ -14,6 +14,10 @@
   "markdown":"*",
   "express-session":"*",
   "mocha":"*",
-  "supervisor":"*"
+  "supervisor":"*",
+  "formidable":"*",
+  "gm":"*",
+  "imagemagick":"*",
+  "node-avatar-generator":"*"
   }
 }
